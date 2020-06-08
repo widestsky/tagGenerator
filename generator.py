@@ -48,6 +48,7 @@ tags = [
     'catsofnyc', #161k
     'catsofchicago', #61k
     'catsofcanada', #116k
+    'ospcainsta', #1k
     ]
 
 count = 30
@@ -59,6 +60,6 @@ while len(result) < count:
     if pick not in result:
         result.append(pick)
 
-output = '#' + ' #'.join(result) + ' @cutemeaws'
+output = '#' + ' #'.join(result) + ' @cutemeaws @thepetsjoy'
 
 print(output)
